@@ -2,7 +2,7 @@ const test = require('ava')
 const path = require('path')
 const compare = require('hamming-distance')
 
-const {Chohuku} = require('../build/index')
+const Chohuku = require('../build/index')
 const THRESHOLD = 10
 
 test('should return hash when pass a correct image path', async t => {

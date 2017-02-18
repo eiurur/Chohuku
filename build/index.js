@@ -2,6 +2,4 @@
 
 require('babel-polyfill');
 
-module.exports = {
-  Chohuku: require('./lib/Chohuku')
-};
+module.exports = require('./lib/Chohuku');

@@ -1,7 +1,7 @@
 const test = require('ava')
 const path = require('path')
 
-const {Chohuku} = require('../build/index')
+const Chohuku = require('../build/index')
 
 test('should return Error when pass an invalid image path', async t => {
   try {
