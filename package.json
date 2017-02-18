@@ -19,7 +19,6 @@
   "devDependencies": {
     "ava": "^0.18.1",
     "babel-cli": "^6.23.0",
-    "babel-polyfill": "^6.23.0",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-power-assert": "^1.0.0",
     "babel-preset-stage-3": "^6.22.0",
@@ -35,6 +34,7 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
+    "babel-polyfill": "^6.23.0",
     "jimp": "^0.2.27"
   }
 }
