@@ -6,7 +6,7 @@ module.exports = class Image {
   }
 
   get filepath() {
-    return path.resolve(this.image)
+    return this.image
   }
 
   get filename() {
