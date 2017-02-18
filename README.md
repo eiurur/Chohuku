@@ -13,7 +13,7 @@ Chohuku
 
 # Usage
 
-    const Chohuku = require('chohuku');
+    const {Chohuku} = require('chohuku');
     const chohuku = new Chohuku('test.jpg');
 
     // Hexadecimal
