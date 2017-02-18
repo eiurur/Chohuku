@@ -1,7 +1,5 @@
-'use strict';
-
-require('babel-polyfill');
+require('babel-polyfill')
 
 module.exports = {
   Chohuku: require('./lib/Chohuku')
-};
+}
